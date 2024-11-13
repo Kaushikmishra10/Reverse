@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void reverse();
+void display();
 
 char name[10];
 char temp;
@@ -13,6 +14,8 @@ int main()
     printf("the name is : %s", name);
 
     reverse();
+
+    dispaly();
 
     return 0;
 }
@@ -27,4 +30,9 @@ void reverse()
     }
 
     printf("\nthe reverse name is : %s", name);
+}
+
+void display()
+{
+    printf("This is kaushik");
 }
